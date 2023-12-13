@@ -55,7 +55,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
     transform-style: preserve-3d;
     perspective: 500px;
 }
@@ -67,12 +66,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: #fff;
     font-size: 3em;
-    transform: rotateY(180deg);
-    transition: 0.25s;
     cursor: pointer;
+    transition: 0.25s;
 }
 
 .item::after {
